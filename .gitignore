@@ -31,6 +31,8 @@
 /config/master.key
 # Frontend artifacts and libs
 app/assets/builds/*
+!app/assets/builds/.keep
+!app/assets/builds/images/.keep
 node_modules
 
 # Platform/IDE-specific settings
